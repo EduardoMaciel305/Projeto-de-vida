@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(255, 156, 156);
+    max-width: 950px;
+    margin: 0 auto;
+    border: 3px #000 solid;
+    border-radius: 1px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+nav ul{
+    list-style: none;  
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-shadow: 3px 0 rgb(222, 114, 20),
+    -3px 0 rgb(222, 114, 20),
+     0 3px rgb(222, 114, 20),
+    0 -3px rgb(222, 114, 20),
+   2px 2px rgb(222, 114, 20),
+ -2px -2px rgb(222, 114, 20),
+  2px -2px rgb(222, 114, 20),
+  -2px 2px rgb(222, 114, 20);
+
+}
+
+section{
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.secao_texto_SobreMim{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 350px;
+    padding-left: 50px;
+}
+
+.secao_texto_SobreMim h3{
+    font-size: 30px;
+    margin-top: 10px;
+    text-shadow: 3px 0 rgb(222, 114, 20),
+                -3px 0 rgb(222, 114, 20),
+                 0 3px rgb(222, 114, 20),
+                0 -3px rgb(222, 114, 20),
+               2px 2px rgb(222, 114, 20),
+             -2px -2px rgb(222, 114, 20),
+              2px -2px rgb(222, 114, 20),
+              -2px 2px rgb(222, 114, 20);
+}
+
+.secao_texto_SobreMim p{
+    color: #000;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 4000;
+    text-align: left;
+    padding-top: 25px;
+}
+
+.secao_texto_Valores{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 350px;
+    padding-left: 150px;
+}
+
+.secao_texto_Valores h3{
+    font-size: 30px;
+    margin-top: 10px;
+    text-shadow: 3px 0 rgb(222, 114, 20),
+                -3px 0 rgb(222, 114, 20),
+                 0 3px rgb(222, 114, 20),
+                0 -3px rgb(222, 114, 20),
+               2px 2px rgb(222, 114, 20),
+             -2px -2px rgb(222, 114, 20),
+              2px -2px rgb(222, 114, 20),
+              -2px 2px rgb(222, 114, 20);
+}
+
+.secao_texto_Valores p{
+    color: #000;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 4000;
+    text-align: left;
+    padding-top: 25px;
+}
+
+.secao_texto_MeusPlanos{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 350px;
+    padding-left: 150px;
+}
+
+.secao_texto_MeusPlanos h3{
+    font-size: 30px;
+    margin-top: 10px;
+    text-shadow: 3px 0 rgb(222, 114, 20),
+                -3px 0 rgb(222, 114, 20),
+                 0 3px rgb(222, 114, 20),
+                0 -3px rgb(222, 114, 20),
+               2px 2px rgb(222, 114, 20),
+             -2px -2px rgb(222, 114, 20),
+              2px -2px rgb(222, 114, 20),
+              -2px 2px rgb(222, 114, 20);
+}
+
+.secao_texto_MeusPlanos p{
+    color: #000;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 4000;
+    text-align: left;
+    padding-top: 25px;
+}
+
+.secao_texto_Recursos{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 350px;
+    padding-left: 50px;
+}
+
+.secao_texto_Recursos h3{
+    font-size: 30px;
+    margin-top: 10px;
+    text-shadow: 3px 0 rgb(222, 114, 20),
+                -3px 0 rgb(222, 114, 20),
+                 0 3px rgb(222, 114, 20),
+                0 -3px rgb(222, 114, 20),
+               2px 2px rgb(222, 114, 20),
+             -2px -2px rgb(222, 114, 20),
+              2px -2px rgb(222, 114, 20),
+              -2px 2px rgb(222, 114, 20);
+}
+
+.secao_texto_Recursos p{
+    color: #000;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 4000;
+    text-align: left;
+    padding-top: 25px;
+}
+
+.container{
+    max-width: 140000px;
+    margin: 0 auto;
+    padding: 0 4%;
+    text-align: center;
+}
+
+.container h1{
+    color: white;
+    text-align: left;
+    padding-left: 300px;
+    font-size: 50px;
+    text-shadow: 3px 0 rgb(78, 7, 220),
+                -3px 0 rgb(78, 7, 220),
+                 0 3px rgb(78, 7, 220),
+                0 -3px rgb(78, 7, 220),
+               2px 2px rgb(78, 7, 220),
+             -2px -2px rgb(78, 7, 220),
+              2px -2px rgb(78, 7, 220),
+              -2px 2px rgb(78, 7, 220);
+
+}
+
+.MBTI{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 250px;
+}
+
+.MBTI-Titulo{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    text-shadow: 3px 0 rgb(78, 7, 220),
+                -3px 0 rgb(78, 7, 220),
+                 0 3px rgb(78, 7, 220),
+                0 -3px rgb(78, 7, 220),
+               2px 2px rgb(78, 7, 220),
+             -2px -2px rgb(78, 7, 220),
+              2px -2px rgb(78, 7, 220),
+              -2px 2px rgb(78, 7, 220);
+}
+
+.H3{
+    text-align: center;
+    padding-bottom: 25px;
+    padding-left: 45px;
+}
+
+.Objetivo-1{
+    color: #000;
+    text-align: center;
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.Objetivo-2{
+    color: black;
+    text-align: center;
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.Valores{
+    color: #000;
+    list-style: none;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.Valores-LINK{
+    color: #000;
+    list-style: none;
+}
+.secao_texto_Planos{
+    color: rgb(0, 0, 0);
+}
+
+.secao_texto_Planos h2{
+    color: white;
+    text-shadow: 3px 0 rgb(222, 114, 20),
+                -3px 0 rgb(222, 114, 20),
+                 0 3px rgb(222, 114, 20),
+                0 -3px rgb(222, 114, 20),
+               2px 2px rgb(222, 114, 20),
+             -2px -2px rgb(222, 114, 20),
+              2px -2px rgb(222, 114, 20),
+              -2px 2px rgb(222, 114, 20);
+}
+
+.secao_texto_Planos h3{
+    color: white;
+    text-shadow: 3px 0 rgb(222, 114, 20),
+                -3px 0 rgb(222, 114, 20),
+                 0 3px rgb(222, 114, 20),
+                0 -3px rgb(222, 114, 20),
+               2px 2px rgb(222, 114, 20),
+             -2px -2px rgb(222, 114, 20),
+              2px -2px rgb(222, 114, 20),
+              -2px 2px rgb(222, 114, 20);
+}
+
+.Citações{
+    text-align: left;
+    color: #000;
+}
+
+
+.direitos{
+    color: rgb(78, 7, 220);
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
